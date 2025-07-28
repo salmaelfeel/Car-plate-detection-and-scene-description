@@ -6,7 +6,7 @@
 This project integrates three computer vision components into a single pipeline, served via an interactive Gradio interface. The system performs the following tasks on any uploaded scene image:
 
 1. **License Plate Detection**
-   A YOLOv11 model (`best.pt`) is used to detect vehicle license plates and extract bounding box coordinates with confidence scores.
+   A YOLOv11 model (`license_plate_detector.pt`) is used to detect vehicle license plates and extract bounding box coordinates with confidence scores.
 
 2. **Text Recognition**
    PaddleOCR is applied to each detected plate region to extract text and recognition confidence.
